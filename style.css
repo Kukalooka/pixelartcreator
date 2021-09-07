@@ -1,0 +1,179 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 179), rgb(0, 247, 255));
+    background-size: 200vh 200vw;
+}
+
+h1, p, span{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#alex{
+    color: pink;
+    text-shadow: 2px 2px purple;
+}
+
+#chonk{
+    font-size: 20px
+}
+
+.canvas{
+    width: 544px;
+    height: 544px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.row{
+    clear: left;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+.row > div{
+    height: 32px;
+    width: 32px;
+    border: 1px solid black;
+}
+
+.select {
+    margin: auto;
+    margin-top: 10px;
+    height: 64px;
+    width: 490px;
+}
+
+.userColors {
+    margin: auto;
+    margin-top: 10px;
+    height: 32px;
+    width: 490px;
+}
+
+
+.swhite, .sred, .sorange, .syellow, .slgreen, .sgreen, 
+.saqua, .sblue, .spurple, .spink, .sbrown, .sblack, 
+.sgrey, .smarkb, .smarkr, .smarko, .skarbop, .skarbohp, .skarbob, .snew{
+    display: inline-block;
+    height: 32px;
+    width: 32px;  
+    border: 1px solid black;
+}
+
+.newBlock {
+    margin-right: 3px;
+}
+
+.swhite{
+    background-color: white;
+}
+
+.sred{
+    background-color: red;
+}
+
+.sorange{
+    background-color: orange;
+}
+
+.syellow{
+    background-color: yellow;
+}
+
+.slgreen{
+    background-color: lightgreen;
+}
+
+.sgreen{
+    background-color: green;
+}
+
+.saqua {
+    background-color: aqua;
+}
+
+.sblue{
+    background-color: blue;
+}
+
+.spurple{
+    background-color: purple;
+}
+
+.spink{
+    background-color: pink;
+}
+
+.sbrown {
+    background-color: brown;
+}
+
+.sblack, .skarbob{
+    background-color: black;
+}
+
+.sgrey{
+    background-color: grey;
+}
+
+.smarkb {
+    background-color: #AC7C04;
+}
+
+.smarkr {
+    background-color: #FC3404;
+}
+
+.smarko {
+    background-color: #FCA444;
+}
+
+.skarbop {
+    background-color: #FCCCD4;
+}
+
+.skarbohp {
+    background-color: #FC84AC;
+}
+
+.reset{
+    width: 100px;
+    margin: auto;
+}
+
+#reset{
+    width: 100px;
+    margin-top: 10px;
+}
+
+#hexInsert {
+    width: 170px;
+    margin: auto;
+}
+
+#addRows {
+    width: 257px;
+    margin: auto;
+}
+
+#removeRows {
+    width: 308px;
+    margin: auto;
+}
+
+#hexButton, #vertical, #rvertical {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.counter {
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
